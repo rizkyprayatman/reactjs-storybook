@@ -1,4 +1,9 @@
+import laracamp from "./laracamp";
+
 export const parameters = {
+  docs: {
+    theme: laracamp,
+  },
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
@@ -6,4 +11,4 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};
