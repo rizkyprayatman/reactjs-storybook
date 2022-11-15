@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@rizkyprayatman"
+    "@rizkyprayatman:registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "react": ">=16",
