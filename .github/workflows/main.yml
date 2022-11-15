@@ -16,6 +16,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@rizkyprayatman'
       - run: npm install
-      - run: npm publish
+      - run: npm run build-storybook
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
